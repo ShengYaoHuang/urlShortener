@@ -1,17 +1,19 @@
 <div class="container m-5">
-  <div class="row justify-content-center">
-    <h1>URL Shortener</h1>
-  </div>
-  <div class="row justify-content-center">
-    <i class="fas fa-link fa-9x"></i>
-  </div>
-  <h4 class="row justify-content-center mt-5">
-    Success! Please use this link:
-  </h4>
-  <div class="row justify-content-center mt-3">
-    <a href="/">http://localhost:3000</a>
-  </div>
-  <form action="/success" class="row justify-content-center mt-3">
-    <button class="btn btn-dark">COPY</button>
+  <form action="/success">
+    <div class="row justify-content-center">
+      <h1>URL Shortener</h1>
+    </div>
+    <div class="row justify-content-center">
+      <i class="fas fa-link fa-9x"></i>
+    </div>
+    <h4 class="row justify-content-center mt-5">
+      Success! Please use this link:
+    </h4>
+    <div class="row justify-content-center mt-3" id="shortenUrl">
+      <a href="{{ successUrl }}">{{ successUrl }}</a>
+    </div>
+    <div class="row justify-content-center mt-3">
+      <button class="btn btn-dark">COPY</button>
+    </div>
   </form>
 </div>
