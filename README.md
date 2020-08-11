@@ -18,7 +18,7 @@
 > git clone https://github.com/ShengYaoHuang/url_shortener.git
 
 2. 進入專案資料夾
-> cd url-shortener
+> cd url_shortener
 
 3.下載套件
 > npm install
